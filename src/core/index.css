@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cyrillic Goth";
+  src: url("../assets/fonts/CyrillicGoth.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Garet Book";
+  src: url("../assets/fonts/Garet-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Garet";
+  src: url("../assets/fonts/Garet-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KyivTypeSerif";
+  src: url("../assets/fonts/KyivTypeSerif.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
