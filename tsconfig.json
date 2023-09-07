@@ -14,15 +14,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": ["src"],
-  "paths": {
-    "@core/*": ["./src/components/*"],
-    "@modules/*": ["./src/modules/*"],
-    "@components/*": ["./src/components/*"],
-    "@pages/*": ["./src/pages/*"],
-    "@shared/*": ["./src/shared/*"],
-    "@assets/*": ["./src/pages/*"]
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@modules/*": ["modules/*"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@shared/*": ["shared/*"],
+      "@assets/*": ["assets/*"]
+    }
   }
 }
