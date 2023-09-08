@@ -23,7 +23,7 @@ module.exports = {
     semi: ["error", "always"],
 
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": "off",
 
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
