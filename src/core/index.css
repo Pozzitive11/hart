@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Garet Book", sans-serif;
+}
+
 @font-face {
   font-family: "Cyrillic Goth";
   src: url("../assets/fonts/CyrillicGoth.ttf") format("truetype");
