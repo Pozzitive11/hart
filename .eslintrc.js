@@ -21,7 +21,6 @@ module.exports = {
     indent: ["error", 2],
     quotes: ["error", "double"],
     semi: ["error", "always"],
-
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-unused-vars": "off",
 

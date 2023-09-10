@@ -42,6 +42,9 @@ module.exports = {
         10: "10px",
         20: "20px",
       },
+      textShadow: {
+        custom: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+      },
     },
     screens: {
       sm: "576px",

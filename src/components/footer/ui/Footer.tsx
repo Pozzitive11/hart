@@ -5,7 +5,7 @@ import { Logo } from "shared/ui/logo";
 
 export const Footer = () => {
   return (
-    <footer className="font-light bg-primary-500 pt-10 pb-5 mt-a">
+    <footer className="font-light bg-primary-500 pt-10 pb-5">
       <div className="sm:container sm:mx-auto flex justify-between items-center">
         <div>
           <Logo />
